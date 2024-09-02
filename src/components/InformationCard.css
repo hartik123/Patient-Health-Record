@@ -1,0 +1,67 @@
+/* .InfoCard {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #6a5656 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+} */
+
+.patientName{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: center;
+font: normal normal 800 24px/33px Manrope;
+letter-spacing: 0px;
+color: #072635;
+opacity: 1;
+}
+
+.infoItemLabelStyle{
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal medium 14px/19px Manrope;
+letter-spacing: 0px;
+color: #072635;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.infoItemLabelDataStyle{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal bold 14px/19px Manrope;
+letter-spacing: 0px;
+color: #072635;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.showAllInfo{
+    /* --bs-btn-padding-y: .25rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .75rem; */
+    width: 220px;
+height: 41px;
+/* UI Properties */
+background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+background: #01F0D0 0% 0% no-repeat padding-box;
+border-radius: 41px;
+opacity: 1;
+/* display: flex;
+justify-content: center; */
+/* text-align: center; */
+margin:auto;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+
+.section-curving{
+    border-radius: 2rem;
+    background-color: rgb(31, 31, 31);
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(189, 38, 38, 0.1);
+}

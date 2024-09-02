@@ -1,0 +1,63 @@
+.health-card {
+    background-color: #f5f7fa;
+    /* Light grey background */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.health-info h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #4b5563;
+    text-align: start;
+}
+
+.health-info h2 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.health-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+    text-align: start;
+}
+
+/* Status based color classes */
+.normal {
+    background-color: #E0F3FA;
+    /* Light blue for Normal */
+}
+
+.low {
+    background-color: #FFE6F1;
+    /* Light yellow for Low */
+}
+
+.high {
+    background-color: #fee2e2;
+    /* Light red for High */
+}

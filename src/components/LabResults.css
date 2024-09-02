@@ -1,0 +1,18 @@
+.lab-result-label {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.scrollable-section-lab-results{
+    height: 30vh; /* Set the height you want */
+    overflow-y: scroll; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Prevents horizontal scrolling (optional) */
+    /* border: 1px solid #ccc; 
+    padding: 10px; /* Optional: padding inside the scrollable section */
+}
